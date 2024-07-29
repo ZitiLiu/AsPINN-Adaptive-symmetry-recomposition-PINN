@@ -1,0 +1,15 @@
+ques_name,Burgers,The question name.Containing 'Burgers' 'Burgers_inv' 'AC' 'AC_inv' 'Laplace'
+x_min,0, Minimum value of x
+x_max,1,Maximum value of x
+y_min,-1,Minimum value of y
+y_max,1,Maximum value of y
+model,0,Every code represents a model. 0 represents PINN & DB-PINN & AsPINN; 1:PINN; 2:Dual Branch NN; 3 :Parity NN; 4: ISB-PINN ;40: four models include ISB; 5: SSB-PINN; 50:4 models include SSB-PINN
+node_num,8,Single-layer model node count.
+grid_node_num,101,Single-side computational node count in the computational domain.
+step_num,80000,Number of iterations
+bun_node_num,101,Single-side computational node count at the boundary.
+figure_node_num,200,Single-side pixel of the image.
+para_ud_num,1,The undetermined parameters number
+monitor_state,0,whether there is supervision or not
+data_num,"1,3",Sub series of monitor database
+para_ctrl,"0.01,0.1",Variable parameters of the control equation.
